@@ -44,7 +44,7 @@ pdftoppm -png -r 150 -f 26 -l 26 -x 302 -y 567 -W 617 -H 252 book.pdf fig
 Requires Python 3.10–3.14.
 
 ```sh
-cd ~/humphreySrc/pdf2md
+cd pdf2md
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
